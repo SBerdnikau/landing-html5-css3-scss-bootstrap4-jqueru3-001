@@ -1,0 +1,20 @@
+.b-aboutCabHub__socialIcons{
+  display: flex;
+  justify-content: space-between;
+  width: 132px;
+}
+
+.b-aboutCabHub__socialIcons_color{
+  color:  #ffc61a;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.b-aboutCabHub__socialIcons_color:hover{
+  color:#fff;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}

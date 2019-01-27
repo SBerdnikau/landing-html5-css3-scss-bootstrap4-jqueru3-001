@@ -1,0 +1,33 @@
+.b-btnReadMore__btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  background-color:  #ffc61a;
+  width: 166px;
+  height: 50px;
+  font-family: BebasNeueBold,sans-serif;
+  color:  #1b1b1b;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  margin: 0 auto;
+  @media screen and (min-width: 480px) and (max-width: 579px) {
+    width: 90%;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    width: 90%;
+  }
+}
+
+
+
+.__btnReadMore-hoverBtn-backgroundColor:hover{
+  text-decoration: none;
+  background-color:  #daa504;
+  color:  #1b1b1b;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}

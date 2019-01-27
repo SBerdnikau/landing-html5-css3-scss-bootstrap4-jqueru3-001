@@ -1,0 +1,286 @@
+.b-aboutAndBookingForm {
+  padding: 151px 0 80px 0;
+  @media screen and (min-width: 580px) and (max-width: 767px) {
+    padding-top: 80px;
+  }
+  @media screen and (min-width: 480px) and (max-width: 579px) {
+    padding-top: 80px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    padding-top: 80px;
+  }
+
+}
+
+.b-aboutAndBookingForm__readMoreAndForm{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+      justify-content: center;
+    }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+      justify-content: center;
+  }
+  @media screen and (min-width: 580px) and (max-width: 767px){
+      justify-content: center;
+  }
+  @media screen and (min-width: 480px) and (max-width: 579px) {
+      justify-content: center;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    justify-content: center;
+  }
+}
+
+.b-readMoreTitle__supTitle{
+  font-family: Lato,sans-serif;
+  color:  #100f0f;
+  font-size: 35px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+.b-readMoreTitle__mainTitle_supTitleMargin{
+  margin-bottom: 26px;
+}
+
+.b-readMoreTitle__mainTitle{
+  font-family: Lato,sans-serif;
+  color:  #100f0f;
+  font-size: 50px;
+  font-weight: 900;
+  text-transform: uppercase;
+  width: 545px;
+  @media screen and (min-width: 580px) and (max-width: 767px) {
+    width: 490px;
+  }
+  @media screen and (min-width: 480px) and (max-width: 579px) {
+    width: 470px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    width: 100%;
+  }
+}
+
+.b-readMoreTitle__mainTitle_titleMargin{
+  margin-bottom: 44px;
+}
+
+.b-readMoreTitle__description{
+  font-family: Lato,sans-serif;
+  color:  #100f0f;
+  font-size: 18px;
+  font-weight: 400;
+  width: 554px;
+  @media screen and (min-width: 580px) and (max-width: 767px) {
+    width: 490px;
+  }
+  @media screen and (min-width: 480px) and (max-width: 579px) {
+    width: 470px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    width: 100%;
+  }
+}
+
+.b-readMoreTitle__mainTitle_descriptionMargin{
+  margin-bottom: 60px;
+}
+
+.b-readMoreTitle__btnReadMore{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  background-color:  #000000;
+  width: 166px;
+  height: 50px;
+  font-family: BebasNeueBold,sans-serif;
+  color:  #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+
+  @media screen and (min-width: 580px) and (max-width: 767px) {
+      width: 100%;
+  }
+  @media screen and (min-width: 480px) and (max-width: 579px) {
+     width: 100%;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    width: 100%;
+  }
+}
+
+.b-readMoreTitle__btnReadMore_hoverBtn:hover{
+  text-decoration: none;
+  background-color:  #daa504;
+  color:  #000;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}
+
+.b-readMoreForm__bookCabForm{
+  background-color: #ffffff;
+  width: 422px;
+  height: 472px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    margin-top: 60px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    margin-top: 60px;
+  }
+  @media screen and (min-width: 580px) and (max-width: 767px) {
+    margin-top: 60px;
+  }
+  @media screen and (min-width: 480px) and (max-width: 579px) {
+    margin-top: 60px;
+    width: 100%;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    margin-top: 60px;
+    width: 100%;
+  }
+}
+
+.b-readMoreForm__item{
+  background:  #fff;
+  width: 171px;
+  font-family: Lato,sans-serif;
+  color:  #000;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  border:0;
+  height: 20px;
+  border-bottom: 3px solid #e4e4e4;
+  outline: none;
+  padding: 20px 0;
+  @media screen and (min-width: 480px) and (max-width: 579px){
+    width: 100%;
+    margin: 0 20px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px){
+    width: 100%;
+    margin: 0 20px;
+  }
+}
+
+.b-readMoreForm__item_focusOutline:focus{
+  border-bottom: 3px solid #ffc61a;
+  -webkit-transition: .5s ease-in-out;
+  -moz-transition: .5s ease-in-out;
+  -o-transition: .5s ease-in-out;
+  transition: .5s ease-in-out;
+}
+
+.b-readMoreForm__item[type='text']::placeholder{
+  font-family: Lato,sans-serif;
+  color:  #4b4b4b;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.b-readMoreForm__item_long{
+  background:  #fff;
+  font-family: Lato,sans-serif;
+  color:  #000;
+  font-size: 20px;
+  font-weight: 600;
+  text-align: left;
+  border:0;
+  border-bottom: 3px solid #e4e4e4;
+  width: 380px;
+  height: 20px;
+  outline: none;
+  padding: 20px 0;
+  @media screen and (min-width: 480px) and (max-width: 579px) {
+    width: 100%;
+    margin: 0 20px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    width: 100%;
+    margin: 0 20px;
+  }
+}
+
+.b-readMoreForm__item_long[type='text']::placeholder{
+  font-family: Lato,sans-serif;
+  color:  #4b4b4b;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.b-bookCab__titleFormBookCab{
+  padding-left: 22px;
+  display: flex;
+  align-items: center;
+  background-color: #171717;
+  width: 422px;
+  height: 77px;
+  font-family: Lato,sans-serif;
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: 900;
+  text-transform: uppercase;
+  @media screen and (min-width: 480px) and (max-width: 579px) {
+    width: 100%;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    width: 100%;
+  }
+}
+
+.b-bookCab__titleFormBookCab_color{
+  font-family: Lato,sans-serif;
+  color:  #ffc61a;
+  font-size: 34px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.b-readMoreForm__btnSubmit{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  background-color:  #131313;
+  width: 376px;
+  height: 50px;
+  font-family: BebasNeueBold,sans-serif;
+  color:  #ffffff;
+  font-size: 30px;
+  font-weight: 400;
+  text-align: center;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  text-transform: uppercase;
+  @media screen and (min-width: 480px) and (max-width: 579px) {
+    width: 100%;
+    margin: 20px ;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    width: 100%;
+    margin: 20px ;
+  }
+}
+
+.b-readMoreForm__btnSubmit:hover{
+  text-decoration: none;
+  background-color:  #daa504;
+  color:  #000;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}

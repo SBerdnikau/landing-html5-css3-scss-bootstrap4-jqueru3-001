@@ -1,0 +1,24 @@
+.b-reviews__review{
+  background-color:  #040707;
+  border-radius: 60px;
+  padding: 35px;
+  @media screen and (min-width: 992px) and (max-width: 1199px) {
+    margin: 10px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    margin: 10px;
+  }
+  @media screen and (min-width: 580px) and (max-width: 767px) {
+    margin: 10px;
+  }
+  @media screen and (min-width: 480px) and (max-width: 579px) {
+    margin: 10px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    margin: 10px;
+  }
+}
+
+@import "desc/_desc";
+@import "icon/_icon";
+@import "nameAndProfession/_nameAndProfession";

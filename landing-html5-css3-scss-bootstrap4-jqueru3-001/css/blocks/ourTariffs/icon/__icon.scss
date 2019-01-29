@@ -1,0 +1,15 @@
+.b-blockClassTariff__icon{
+
+}
+
+.b-blockClassTariff__icon_resize{
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  top: -91px;
+  right: 0;
+  @media screen and (max-width: 479px){
+    top: -91px;
+    right: -1px;
+  }
+}

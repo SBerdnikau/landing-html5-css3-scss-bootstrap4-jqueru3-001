@@ -1,0 +1,18 @@
+.b-footer__information{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  @media screen and (min-width: 580px) and (max-width: 767px){
+    justify-content: center;
+  }
+  @media screen and (min-width: 480px) and (max-width: 579px){
+    justify-content: center;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px){
+    justify-content: center;
+  }
+}
+
+@import "aboutCabHub/_aboutCabHub";
+@import "download/_download";
+@import "contact/_contact";

@@ -1,0 +1,47 @@
+.b-ourTariff__tariffs{
+    display: flex;
+    justify-content: space-between;
+    @media screen and (min-width: 992px) and (max-width: 1199px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    @media screen and (min-width: 768px) and (max-width: 991px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    @media screen and (min-width: 580px) and (max-width: 767px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    @media screen and (min-width: 480px) and (max-width: 579px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    @media screen and (min-width: 320px) and (max-width: 479px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+.b-ourTariff_padding{
+    padding: 63px 0 77px 0;
+}
+
+.b-ourTariff__tariffs_padding{
+    padding-top: 130px;
+}
+
+@import "blockClassTariff/_blockClassTariff";
+@import "mainTitle/_mainTitle";
+@import "icon/_icon";
+@import "title/_title";
+@import "desc/_desc";
+@import "timeTariff/_timeTariff";
+@import "btnReadMore/_btnReadMore";
+
+

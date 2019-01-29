@@ -1,0 +1,11 @@
+.b-platformApp__platform{
+  justify-content: space-between;
+  display: flex;
+  width: 179px;
+}
+
+.b-platformApp__platform_padding{
+  padding: 16px 0;
+}
+
+@import "platform/_platform";

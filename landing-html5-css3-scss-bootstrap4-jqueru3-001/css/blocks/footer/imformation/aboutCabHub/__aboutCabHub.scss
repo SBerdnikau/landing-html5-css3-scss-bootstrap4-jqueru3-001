@@ -1,0 +1,22 @@
+.b-information__aboutCabHub{
+  @media screen and (min-width: 992px) and (max-width: 1199px){
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px){
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 580px) and (max-width: 767px){
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 480px) and (max-width: 579px){
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px){
+    padding-bottom: 60px;
+  }
+}
+
+@import "title/_title";
+@import "delimiter/_delimiter";
+@import "desc/_desc";
+@import "socialIcons/_socialIcons";

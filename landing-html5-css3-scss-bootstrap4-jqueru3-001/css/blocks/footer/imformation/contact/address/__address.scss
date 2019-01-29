@@ -1,0 +1,12 @@
+.b-contact__address{
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+}
+
+.b-contact__address_padding{
+  padding-bottom: 26px;
+}
+
+@import "icon/_icon";
+@import "desc/_desc";

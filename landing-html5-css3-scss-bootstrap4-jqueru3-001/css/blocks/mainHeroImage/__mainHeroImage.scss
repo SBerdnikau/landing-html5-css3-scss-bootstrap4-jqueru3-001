@@ -1,0 +1,94 @@
+.b-mainHeroImage_position{
+  position: relative;
+}
+
+.b-mainHeroImage-marginTop{
+  margin-top: 60px;
+  @media screen and (min-width: 320px) and (max-width: 479px){
+    margin-top: 20px;
+  }
+}
+
+.b-informationTitle__title{
+  font-family: Lato,sans-serif;
+  color:  #ffc61a;
+  font-size: 36px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  @media screen and (min-width: 320px) and (max-width: 479px){
+    font-size: 32px;
+  }
+
+}
+
+.b-informationTitle__phone{
+  font-family: Lato,sans-serif;
+  color:  #ffffff;
+  font-size: 72px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  @media screen and (min-width: 580px) and (max-width: 767px){
+    font-size: 55px;
+  }
+  @media screen and (min-width: 480px) and (max-width: 579px){
+    font-size: 46px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px){
+    font-size: 37px;
+  }
+}
+
+.b-informationTitle__email{
+  font-family: Lato,sans-serif;
+  color:  #ffffff;
+  font-size: 20px;
+  font-weight: 900;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 15px;
+  @media screen and (min-width: 580px) and (max-width: 767px){
+    font-size: 13px;
+  }
+  @media screen and (min-width: 480px) and (max-width: 579px){
+    font-size: 10px;
+    letter-spacing: 10px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px){
+    font-size: 10px;
+    letter-spacing: 5px;
+  }
+}
+
+.b-pictureProduct_position{
+  position: absolute;
+  top: 222px;
+  left: 118px;
+  @media screen and (min-width: 992px) and (max-width: 1199px){
+    left: 54px;
+  }
+  @media screen and (min-width: 768px) and (max-width: 991px){
+    top: 222px;
+    left: -5px;
+  }
+  @media screen and (min-width: 480px) and (max-width: 767px){
+    top: 192px;
+    left: -2px;
+  }
+  @media screen and (min-width: 320px) and (max-width: 479px){
+    top: 192px;
+    left: 3px;
+  }
+
+}
+
+.b-pictureProduct_size{
+  max-width: 100%;
+  height: auto;
+}
+
+
+
+
+

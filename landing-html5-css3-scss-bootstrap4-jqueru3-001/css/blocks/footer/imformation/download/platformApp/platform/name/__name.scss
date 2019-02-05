@@ -1,0 +1,15 @@
+.b-name__item{
+  font-family: Lato,sans-serif;
+  color:  #ffc61a;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: left;
+}
+.b-name__item:hover{
+  text-decoration: none;
+  color: #fff;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}

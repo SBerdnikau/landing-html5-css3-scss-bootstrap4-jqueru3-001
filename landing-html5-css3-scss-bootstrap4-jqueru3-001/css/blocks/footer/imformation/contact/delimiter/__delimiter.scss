@@ -1,0 +1,12 @@
+.b-contact__delimiter{
+  background-color:  #ffc61a;
+  width: 339px;
+  height: 8px;
+  @media screen and (min-width: 320px) and (max-width: 479px){
+    width: auto;
+  }
+}
+
+.b-contact__delimiter_margin{
+  margin: 38px 0 46px 0;
+}
